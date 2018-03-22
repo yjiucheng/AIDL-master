@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.gupo.jiucheng.aidl_master.auto.AutoActivity;
+import com.gupo.jiucheng.aidl_master.manual.ManualActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,6 +19,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 //自动
                 startActivity(new Intent(MainActivity.this, AutoActivity.class));
+            }
+        });
+        findViewById(R.id.manual).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //手动
+                startActivity(new Intent(MainActivity.this, ManualActivity.class));
             }
         });
     }

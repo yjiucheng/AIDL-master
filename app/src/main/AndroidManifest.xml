@@ -23,6 +23,14 @@
             android:enabled="true"
             android:exported="true"
             android:process=":auto" />
+
+        <activity android:name=".manual.ManualActivity" />
+
+        <service
+            android:name=".manual.ManualService"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":manual" />
     </application>
 
 </manifest>
