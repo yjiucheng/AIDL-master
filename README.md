@@ -1,9 +1,11 @@
 # aidl 使用demo
 
-标签（空格分隔）： aidl binder stub proxy
+
 
 ---
 ![demo.gif](https://upload-images.jianshu.io/upload_images/3748728-8a8ea72bb828b038.gif?imageMogr2/auto-orient/strip)
+
+
 主要包括两个部分：
 
 
