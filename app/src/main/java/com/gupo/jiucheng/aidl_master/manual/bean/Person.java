@@ -12,6 +12,9 @@ public class Person implements Parcelable {
     public String id;
     public String age;
 
+    public Person() {
+    }
+
     protected Person(Parcel in) {
         name = in.readString();
         id = in.readString();

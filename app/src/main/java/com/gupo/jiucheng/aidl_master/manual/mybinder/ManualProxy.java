@@ -67,7 +67,7 @@ public class ManualProxy implements IManualRemote {
         String age;
         try {
             data.writeInterfaceToken(DESCRIPTOR);
-            iBinder.transact(TRANSACTION_getName, data, reply, 0);
+            iBinder.transact(TRANSACTION_getAge, data, reply, 0);
             reply.readException();
             age = reply.readString();
         } finally {
