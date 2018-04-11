@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.gupo.jiucheng.aidl_master.auto.AutoActivity;
 import com.gupo.jiucheng.aidl_master.manual.ManualActivity;
+import com.gupo.jiucheng.aidl_master.messenger.MessengerActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,6 +27,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 //手动
                 startActivity(new Intent(MainActivity.this, ManualActivity.class));
+            }
+        });
+
+        findViewById(R.id.messenger).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //messenger
+                startActivity(new Intent(MainActivity.this, MessengerActivity.class));
             }
         });
     }
