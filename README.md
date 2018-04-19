@@ -44,6 +44,7 @@ AIDL的代码生成器，已经根据.aidl文件自动帮我们生成Proxy、Stu
 
 具体代码参见[manual部分][5]
  
+ 
 
 
   [1]: https://github.com/yjiucheng/AIDL-master/blob/master/app/src/main/java/com/gupo/jiucheng/aidl_master/auto/AutoService.java
