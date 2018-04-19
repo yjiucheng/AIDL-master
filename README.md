@@ -43,6 +43,9 @@ AIDL的代码生成器，已经根据.aidl文件自动帮我们生成Proxy、Stu
 不过这一过程我们可以自己实现，也加深对aidl、对Binder机制的理解。
 
 具体代码参见[manual部分][5]
+
+
+增加messenger通信方式
  
 
 
