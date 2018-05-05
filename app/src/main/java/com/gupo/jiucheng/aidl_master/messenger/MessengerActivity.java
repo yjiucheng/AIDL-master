@@ -20,7 +20,6 @@ import android.widget.TextView;
 import com.gupo.jiucheng.aidl_master.R;
 
 public class MessengerActivity extends AppCompatActivity {
-
     private static final String TAG = "MainActivity";
     private static final int MSG_SUM = 1;
 
